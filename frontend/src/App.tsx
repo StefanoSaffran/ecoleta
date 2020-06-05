@@ -1,12 +1,20 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+import GlobalStyle from './styles/global';
+
+import AppProvider from './hooks';
+import Routes from './routes';
+
+const App: React.FC = () => {
   return (
-    <div>
-      Next Level Week
-    </div>
+    <Router>
+      <AppProvider>
+        <GlobalStyle />
+        <Routes />
+      </AppProvider>
+    </Router>
   );
-}
+};
 
 export default App;
