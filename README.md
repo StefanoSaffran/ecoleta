@@ -50,7 +50,6 @@ This project was developed with the following technologies:
 -   [Express](https://expressjs.com/)
 -   [Context API](https://reactjs.org/docs/context.html)
 -   [Styled-components](https://www.styled-components.com/)
-
 -   [React Navigation](https://reactnavigation.org/)
 -   [React-icons](https://react-icons.netlify.com/)
 -   [Axios](https://github.com/axios/axios)
@@ -126,7 +125,7 @@ yarn
 
 In order to run the application on your device, you need to change the ip config.
 
-[api.js](https://github.com/StefanoSaffran/ecoleta/blob/master/mobile/src/services/api.ts)
+[api.ts](https://github.com/StefanoSaffran/ecoleta/blob/master/mobile/src/services/api.ts)
 ```javascript
   baseURL: 'http://192.168.0.185:3333',
 ```
