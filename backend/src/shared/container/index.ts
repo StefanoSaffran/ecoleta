@@ -6,6 +6,9 @@ import ItemsRepository from '@modules/items/infra/typeorm/repositories/ItemsRepo
 import IPointsRepository from '@modules/points/repositories/IPointsRepository';
 import PointsRepository from '@modules/points/infra/typeorm/repositories/PointsRepository';
 
+import IPointItemsRepository from '@modules/points/repositories/IPointItemsRepository';
+import PointItemsRepository from '@modules/points/infra/typeorm/repositories/PointItemsRepository';
+
 container.registerSingleton<IItemsRepository>(
   'ItemsRepository',
   ItemsRepository,
@@ -14,4 +17,9 @@ container.registerSingleton<IItemsRepository>(
 container.registerSingleton<IPointsRepository>(
   'PointsRepository',
   PointsRepository,
+);
+
+container.registerSingleton<IPointItemsRepository>(
+  'PointItemsRepository',
+  PointItemsRepository,
 );

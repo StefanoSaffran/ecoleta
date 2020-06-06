@@ -6,8 +6,9 @@ import AppError from '@shared/errors/AppError';
 import uploadConfig from '@config/upload';
 
 import IItemsRepository from '@modules/items/repositories/IItemsRepository';
-import Point from '../infra/typeorm/entities/Point';
 import IPointsRepository from '../repositories/IPointsRepository';
+import IPointItemsRepository from '../repositories/IPointItemsRepository';
+import Point from '../infra/typeorm/entities/Point';
 
 interface IRequest {
   id: string;
@@ -27,6 +28,9 @@ class CreatePointService {
   constructor(
     @inject('PointsRepository')
     private pointsRepository: IPointsRepository,
+
+    @inject('PointItemsRepository')
+    private pointItemsRepository: IPointItemsRepository,
 
     @inject('ItemsRepository')
     private itemsRepository: IItemsRepository,
@@ -52,6 +56,8 @@ class CreatePointService {
     const point = await this.pointsRepository.findById(id);
 
     if (!point) throw new AppError('Point not found');
+
+    await this.pointItemsRepository.deleteByPointId(point.id);
 
     if (point.image && image) {
       const filePath = path.resolve(uploadConfig.photosFolder, point.image);
