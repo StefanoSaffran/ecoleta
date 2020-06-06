@@ -1,7 +1,8 @@
 {
   "exclude": [
     "jest.config.js",
-    "prettier.config.js"
+    "prettier.config.js",
+    "knexfile.ts"
   ],
   "compilerOptions": {
     "target": "es5",
