@@ -42,23 +42,65 @@
 
 This project was developed with the following technologies:
 
+<details>
+  <summary>Backend</summary>
+
 -   [Node.js](https://nodejs.org/)
--   [ReactJS](https://reactjs.org/)
--   [React Native](https://facebook.github.io/react-native/)
--   [TypeScript](https://github.com/microsoft/TypeScript)
--   [TypeORM](https://typeorm.io/)
 -   [Express](https://expressjs.com/)
--   [Context API](https://reactjs.org/docs/context.html)
--   [Styled-components](https://www.styled-components.com/)
--   [React Navigation](https://reactnavigation.org/)
--   [React-icons](https://react-icons.netlify.com/)
--   [Axios](https://github.com/axios/axios)
--   [React-toggle](https://github.com/aaronshaf/react-toggle)
--   [React-spring](https://www.react-spring.io/)
+-   [TypeORM](https://typeorm.io/)
+-   [Typescript](https://www.typescriptlang.org/)
+-   [TS-Node-Dev](https://www.npmjs.com/package/ts-node-dev)
+-   [Celebrate](https://github.com/arb/celebrate)
+-   [Tsyringe](https://github.com/microsoft/tsyringe)
+-   [uuidv4](https://www.npmjs.com/package/uuidv4)
+-   [Cors](https://www.npmjs.com/package/cors)
 -   [ESLint](https://eslint.org/)
 -   [Prettier](https://prettier.io/)
 -   [VS Code](https://code.visualstudio.com/)
 
+</details>
+
+<details>
+  <summary>Frontend</summary>
+
+-   [React](https://pt-br.reactjs.org/)
+-   [Typescript](https://www.typescriptlang.org/)
+-   [Styled Components](https://styled-components.com/)
+-   [Context API](https://reactjs.org/docs/context.html)
+-   [React-toggle](https://github.com/aaronshaf/react-toggle)
+-   [React-spring](https://www.react-spring.io/)
+-   [uuidv4](https://www.npmjs.com/package/uuidv4)
+-   [Axios](https://www.npmjs.com/package/axios)
+-   [React Dropzone](https://github.com/react-dropzone/react-dropzone)
+-   [React Icons](https://react-icons.netlify.com/#/)
+-   [Leaflet](https://leafletjs.com/)
+-   [React Leaflet](https://react-leaflet.js.org/)
+-   [ESLint](https://eslint.org/)
+-   [Prettier](https://prettier.io/)
+-   [VS Code](https://code.visualstudio.com/)
+
+</details>
+
+<details>
+  <summary>Mobile</summary>
+
+-   [React](https://pt-br.reactjs.org/)
+-   [React Native](https://reactnative.dev/)
+-   [Expo](https://expo.io/learn)
+-   [Styled Components](https://styled-components.com/)
+-   [Typescript](https://www.typescriptlang.org/)
+-   [React Navigation](https://reactnavigation.org/)
+-   [Axios](https://www.npmjs.com/package/axios)
+-   [Expo Google Fonts](https://github.com/expo/google-fonts)
+-   [Expo Location](https://docs.expo.io/versions/latest/sdk/location/)
+-   [Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)
+-   [React Native Appearance](https://github.com/expo/react-native-appearance)
+-   [React Native Picker Select](https://www.npmjs.com/package/react-native-picker-select)
+-   [ESLint](https://eslint.org/)
+-   [Prettier](https://prettier.io/)
+-   [VS Code](https://code.visualstudio.com/)
+
+</details>
 
 ## :information_source: How to run
 
